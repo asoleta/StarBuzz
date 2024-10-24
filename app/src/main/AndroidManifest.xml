@@ -25,6 +25,12 @@
             android:name=".FoodActivity"
             android:exported="false" />
         <activity
+            android:name=".StoreCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StoreActivity"
+            android:exported="false" />
+        <activity
             android:name=".TopLevelActivity"
             android:exported="true">
             <intent-filter>

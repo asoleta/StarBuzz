@@ -34,6 +34,12 @@ public class TopLevelActivity extends AppCompatActivity {
                             Intent intent = new Intent(TopLevelActivity.this, FoodCategoryActivity.class);
                             startActivity(intent);
                         }
+
+                        else if(position == 2)
+                        {
+                            Intent intent = new Intent(TopLevelActivity.this, StoreCategoryActivity.class);
+                            startActivity(intent);
+                        }
                     }
                 };
         ListView listView = (ListView) findViewById(R.id.list_options);
