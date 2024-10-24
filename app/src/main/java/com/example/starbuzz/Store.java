@@ -10,8 +10,8 @@ public class Store
 
     public static final Store[] stores =
             {
-                 new Store("Egg, Pesto & Mozzarella Sandwich", "description", R.drawable.bacon),
-                 new Store("Bacon, Sausage & Egg Wrap", "description", R.drawable.pesto)
+                 new Store("Lehigh Street, Allentown", "description", R.drawable.lehighstarbucks),
+                 new Store("Center Valley, Promenade Shops", "description", R.drawable.starbucks2)
             };
 
     public Store(String name, String description, int imageResourceID) {
